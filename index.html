@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradeProof Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TradeProof Hub</h1>
+        <nav>
+            <button id="new-post-btn">Neuen Post erstellen</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="posts-container">
+            <!-- Posts werden hier dynamisch geladen -->
+        </section>
+    </main>
+
+    <!-- Modal für neuen Post -->
+    <div id="post-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Neuen Proof posten</h2>
+            <input type="text" id="post-title" placeholder="Titel">
+            <input type="url" id="post-image" placeholder="Bild-URL">
+            <textarea id="post-comment" placeholder="Kommentar hinzufügen..."></textarea>
+            <button id="submit-post">Posten</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
